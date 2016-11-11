@@ -44,8 +44,8 @@ double integrate(double (*function)(double), double a, double b, int N) {
 }
 int main() {
     auto start = chrono::high_resolution_clock::now();
-    cout << integrate(f, -10, 10, 100000000) << endl;
+    cout << "Integral: " << integrate(f, -10, 10, 100000000) << endl;
     auto finish = chrono::high_resolution_clock::now();
-    cout << chrono::duration_cast<chrono::nanoseconds>(finish-start).count()/1000000000.0 << "s\n";
+    cout << "The calculation took " << chrono::duration_cast<chrono::nanoseconds>(finish-start).count()/1000000000.0 << "s\n";
     return 0;
 }
