@@ -1,0 +1,5 @@
+This is a program that finds the integral of a function by using a Monte Carlo Simulation.
+It generates random numbers and tests to see if they fall inside the area.
+While this is not the most efficient way to find area, it is cool that it works!
+
+This project was inspired by my roomate who made a similar program in MatLab.
